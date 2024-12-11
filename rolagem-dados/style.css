@@ -1,0 +1,101 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 320px; /* Definir largura fixa */
+    box-sizing: border-box; /* Incluir padding na largura total */
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px; /* Adicionar margem entre título e campos */
+}
+
+/* Estilo do campo de entrada e botão */
+.input-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-container i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%); /* Garantir que o ícone fique centralizado verticalmente */
+    font-size: 20px;
+    color: #555;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 10px 10px 10px 40px; /* Espaço para o ícone do dado */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    box-sizing: border-box; /* Garantir que o padding não ultrapasse a largura */
+}
+
+.input-container button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    width: 100%; /* Garantir que o botão ocupe toda a largura */
+}
+
+.input-container button:hover {
+    background-color: #45a049;
+}
+
+/* Estilo do resultado */
+#resultado {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Estilo do link de conexão com Discord */
+.discord-login {
+    margin-top: 20px;
+}
+
+.discord-login a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #7289da;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #36393f;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 100%; /* Garantir que o link ocupe toda a largura */
+    box-sizing: border-box; /* Evitar overflow */
+}
+
+.discord-login a i {
+    margin-right: 10px;
+}
+
+.discord-login a:hover {
+    background-color: #2f3136;
+}
